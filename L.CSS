@@ -1,0 +1,111 @@
+body {
+ font-family: "Times New Roman", sans-serif;
+ background: #ff9999;
+ background-position-y: 5%;
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+body.welcome {
+   background-image: url("dammsugare.jpg");
+width:50%;
+height:50%;
+ }
+div.specialtext {
+background-color:#ff8080;
+border: solid black 1px;
+border-radius:10px;
+width:700px;
+height:450px;
+}
+li {
+font-size:20px;
+}
+h2 {
+color:black;
+text-shadow:2px 1px white;
+}
+h3,
+p,
+span {
+ color: black;
+}
+h4 {
+color:black;
+border-radius: 10px;
+border:black solid 2px;
+box-shadow:inset 1px 1px white;
+  background: #ff8080;
+  padding: 20px;
+  width: 450px;
+  height: 250px
+}
+#maintwo {
+color:black;
+ transition: margin-left .5s;
+ padding: 16px;
+}
+
+.sidenav {
+ text-align: center;
+ height: 100%;
+ width: 0;
+ position: fixed;
+ z-index: 1;
+ top: 0;
+ left: 0;
+ background-color: #ff8080;
+ overflow-x: hidden;
+ transition: 0.5s;
+ padding-top: 60px;
+}
+
+.sidenav a {
+ padding: 8px 8px 8px 32px;
+ text-decoration: none;
+ font-size: 25px;
+ color: #fff;
+ display: block;
+ transition: 0.3s;
+ padding: 30px;
+}
+
+.sidenav a:hover,
+.offcanvas a:focus {
+ color: #f1f1f1;
+}
+
+.closebtn {
+ position: absolute;
+ top: 0;
+ right: 25px;
+ font-size: 36px !important;
+ margin-left: 50px;
+}
+a:hover {
+  color: white ;
+background-color: black;
+}
+a.link:hover {
+  color: blue ;
+}
+img {
+width:90px;
+height:90px;
+border-radius:10px;
+border:black solid 2px;
+}
+footer {
+  text-align: left;
+  padding: 7px;
+  background-color: white;
+  color:black;
+}
+
+@media screen and (max-height: 450px) {
+ .sidenav {
+  padding-top: 15px;
+ }
+ .sidenav a {
+  font-size: 18px;
+ }
+}
